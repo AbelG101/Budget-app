@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users
-  root :to => 'users#index'
+  devise_scope :user do
+    authenticated :user do
+      root :to => 'categories#index', as: :authenticated_root
+    end
+    unauthenticated :user do
+      root :to => 'splash_screen#index', as: :unauthenticated_root
+    end
+  end
   resources :users do
     resources :categories do
       resources :purchases
