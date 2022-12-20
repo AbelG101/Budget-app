@@ -82,3 +82,5 @@ end
 
 gem 'bullet', '~> 7.0'
 gem 'cancancan', '~> 3.4'
+
+gem "tailwindcss-rails", "~> 2.0"
