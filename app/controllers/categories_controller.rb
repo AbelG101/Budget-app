@@ -23,7 +23,7 @@ class CategoriesController < ApplicationController
     @category.user = current_user
     respond_to do |format|
       if @category.save
-        format.html { redirect_to category_url(@category) }
+        format.html { redirect_to categories_url }
         format.json { render :show, status: :created, location: @category }
       else
         format.html { render :new, status: :unprocessable_entity }
