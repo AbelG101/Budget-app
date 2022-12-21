@@ -50,7 +50,7 @@ class CategoriesController < ApplicationController
     @category.destroy
 
     respond_to do |format|
-      format.html { redirect_to categories_url}
+      format.html { redirect_to categories_url }
       format.json { head :no_content }
     end
   end
