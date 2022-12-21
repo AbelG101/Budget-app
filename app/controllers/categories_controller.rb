@@ -3,6 +3,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories or /categories.json
   def index
+    @title = "Categories"
     @categories = current_user.categories
   end
 
@@ -11,6 +12,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories/new
   def new
+    @title = "Add a Category"
     @category = Category.new
   end
 

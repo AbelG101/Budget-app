@@ -3,8 +3,10 @@ class PurchasesController < ApplicationController
 
   # GET /purchases or /purchases.json
   def index
+    @title = "Purchases"
     @category = current_user.categories.find(params[:category_id])
     @purchases = @category.purchases.order(created_at: :desc)
+    @purchases_sum = @purchases.sum(:amount)
   end
 
   # GET /purchases/1 or /purchases/1.json
@@ -12,6 +14,7 @@ class PurchasesController < ApplicationController
 
   # GET /purchases/new
   def new
+    @title = "New Purchase"
     @category = current_user.categories.find(params[:category_id])
     @purchase = Purchase.new
   end
