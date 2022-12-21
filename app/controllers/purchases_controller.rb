@@ -3,7 +3,8 @@ class PurchasesController < ApplicationController
 
   # GET /purchases or /purchases.json
   def index
-    @purchases = Purchase.all
+    @category = current_user.categories.find(params[:category_id])
+    @purchases = @category.purchases.order(created_at: :desc)
   end
 
   # GET /purchases/1 or /purchases/1.json
@@ -11,6 +12,7 @@ class PurchasesController < ApplicationController
 
   # GET /purchases/new
   def new
+    @category = current_user.categories.find(params[:category_id])
     @purchase = Purchase.new
   end
 
@@ -19,11 +21,13 @@ class PurchasesController < ApplicationController
 
   # POST /purchases or /purchases.json
   def create
+    @category = current_user.categories.find(params[:category_id])
     @purchase = Purchase.new(purchase_params)
+    @purchase.user = current_user
 
     respond_to do |format|
       if @purchase.save
-        format.html { redirect_to purchase_url(@purchase), notice: 'Purchase was successfully created.' }
+        format.html { redirect_to category_purchases_path(@category) }
         format.json { render :show, status: :created, location: @purchase }
       else
         format.html { render :new, status: :unprocessable_entity }
