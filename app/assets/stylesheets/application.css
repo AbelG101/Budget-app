@@ -1,5 +1,6 @@
 * {
   font-family: 'Proxima Nova', "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .custom-blue-bg {
@@ -54,4 +55,8 @@
 
 .border-bottom {
   border-bottom: 1px solid #cccc;
+}
+
+.body-height {
+  height: calc(100vh - 62.8px);
 }
