@@ -6,7 +6,7 @@
     <h2 class="text-white text-xl"><%=@title%></h2>
     <%= link_to("Log out", destroy_user_session_path, method: :delete, data: { turbo_method: :delete }, class: "text-white") %>
   </nav>
-  <div class="flex justify-around custom-blue-bg px-1 mb-4">
+  <div class="flex justify-around custom-blue-bg px-1">
     <p></p>
     <p class="text-white">Most recent</p>
     <p class="text-slate-300">Most ancient</p>
