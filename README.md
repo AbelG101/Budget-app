@@ -36,7 +36,7 @@
 # 💵 Budget app <a name="about-project"></a>
 
 **Budget app** 
-> This is a mobile web application where you can manage your budget: like how much you've spent on groceries, transportaion, etc... you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> This is a mobile web application where you can manage your budget: like how much you've spent on groceries, transportation, etc... you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,12 +76,12 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 - Ruby
 - Ruby on Rails
-- PostgreSql
+- PostgreSQL
 
-> Visit this [link](https://www.ruby-lang.org/en/documentation/installation/) on how to install Ruby for different OS's.
+> Visit this [link](https://www.ruby-lang.org/en/documentation/installation/) on how to install Ruby for different OS.
 
 > Visit this [link](https://www.postgresql.org/download/) on how to install PostgreSQL.
 
