@@ -1,9 +1,34 @@
+
 <a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
+
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -33,10 +58,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 💵 Budget app <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**Budget app** 
-> This is a mobile web application where you can manage your budget: like how much you've spent on groceries, transportation, etc... you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> This is a portfolio page made for showcasing the projects I've worked on and the ones I'm working on. I hope you enjoy it 😊.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,18 +69,18 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">Javascript</a></li>
+    <li><a href="https://reactjs.org/">HTML5</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
 <!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Displaying personal projects]**
+- **[Responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +88,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click here](https://budget-app-ufwy.onrender.com/)
+
+- Under construction 🚧
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,96 +97,77 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-To run this project you need:
-- Ruby
-- Ruby on Rails
-- PostgreSQL
+In order to run this project you need:
 
-> Visit this [link](https://www.ruby-lang.org/en/documentation/installation/) on how to install Ruby for different OS.
-
-> Visit this [link](https://www.postgresql.org/download/) on how to install PostgreSQL.
-
-After installing Ruby you can install rails by using the following command:
+<!--
+Example command:
 
 ```sh
  gem install rails
 ```
-
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+<!--
+Example commands:
 
 ```sh
-  cd your-folder
-  git clone https://github.com/AbelG101/Budget-app.git
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
+--->
 
 ### Install
 
-Install this project with:
+Install this project with: `git clone https://github.com/AbelG101/CodeReview-Portfolio.git`
 
-```sh
-  cd Recipe-app
-  bundle install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-```sh
-  rspec spec
-```
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  cd my-project
+  gem install
 ```
 --->
 
-### Deployment
+### Usage
 
-- N/A
+To run the project, execute the following command: `npm install` to install dependencies 
 
 <!--
-Example:
+Example command:
 
 ```sh
-
+  rails server
 ```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+--->
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Abel Gebeyehu**
 
 - GitHub: [@AbelG101](https://github.com/AbelG101)
 - LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Provide live demo]**
-- [ ] **[Sending transactions list to the user's email]**
-- [ ] **[Analytics page to show spending habits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +185,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project make sure to give it a star 🌟
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,16 +195,20 @@ If you like this project make sure to give it a star 🌟
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Microverse](https://www.microverse.org/)
-- Original design idea by:  [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
-- [Creative Commons](https://creativecommons.org)
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
